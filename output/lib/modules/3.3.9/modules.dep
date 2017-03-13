@@ -1,0 +1,44 @@
+kernel/drivers/video/sun6i/lcd/lcd.ko: disp.ko
+kernel/drivers/net/wireless/rtl8188eu/8188eu.ko:
+kernel/drivers/net/wireless/bcmdhd/bcmdhd.ko:
+kernel/drivers/net/usb/rtl8150.ko:
+kernel/drivers/net/usb/qf9700.ko:
+kernel/drivers/net/usb/mcs7830.ko:
+kernel/drivers/input/touchscreen/ft5x_ts.ko:
+kernel/drivers/input/touchscreen/ft5202_ts.ko:
+kernel/drivers/input/misc/sunxi-temperature.ko:
+kernel/drivers/input/device.ko:
+kernel/drivers/media/video/sunxi-vfe/device/cci.ko:
+kernel/drivers/media/video/sunxi-vfe/actuator/dw9714_act.ko: actuator.ko
+kernel/drivers/media/video/sunxi-vfe/actuator/ov8825_act.ko: actuator.ko
+kernel/drivers/hwmon/mma865x.ko:
+kernel/drivers/hwmon/mma7660.ko:
+kernel/drivers/hwmon/afa750.ko:
+kernel/drivers/gsensor/bma250.ko:
+kernel/sound/soc/sun6i/pcm/sun6i-sndpcm.ko:
+vfe_subdev.ko: vfe_os.ko
+vfe_os.ko:
+sndpcm.ko:
+asix.ko:
+vfe_v4l2.ko: vfe_subdev.ko vfe_os.ko
+uvcvideo.ko:
+dc_sunxi.ko: disp.ko pvrsrvkm.ko
+ad5820_act.ko: actuator.ko
+sun6i-sndi2s.ko:
+sun6i-pcm.ko:
+sw-keyboard.ko:
+sun6i-i2sdma.ko:
+kionix_tiny.ko:
+mma8452.ko:
+sun6i-i2s.ko:
+sndi2s.ko:
+g2d_33.ko:
+hdmi.ko: disp.ko
+ov5640.ko: vfe_subdev.ko vfe_os.ko kernel/drivers/media/video/sunxi-vfe/device/cci.ko
+zet622x.ko:
+disp.ko:
+actuator.ko:
+sp0838.ko: kernel/drivers/media/video/sunxi-vfe/device/cci.ko vfe_subdev.ko vfe_os.ko
+gc2035.ko: kernel/drivers/media/video/sunxi-vfe/device/cci.ko vfe_subdev.ko vfe_os.ko
+sun6i-pcmdma.ko:
+pvrsrvkm.ko:
