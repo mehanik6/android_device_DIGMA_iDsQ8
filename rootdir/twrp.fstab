@@ -1,0 +1,13 @@
+# mount point  fstype  device               device2
+
+/bootloader    vfat        /dev/block/nanda    flags=backup=0
+/env           emmc        /dev/block/nandb    flags=backup=0
+/boot          emmc        /dev/block/nandc    flags=display="boot";backup=1
+/system        ext4        /dev/block/nandd    flags=display="System";backup=1;wipeingui
+/data          ext4        /dev/block/nande    flags=display="Data";backup=1;wipeingui;wipeduringfactoryreset
+/misc          emmc        /dev/block/nandf    flags=backup=0
+/recovery      emmc        /dev/block/nandg    flags=display="Recovery";backup=1 
+/cache         ext4        /dev/block/nandh    flags=display="Cache";backup=1;wipeingui;wipeduringfactoryreset
+/sdcard        vfat        /dev/block/nandj    flags=backup=1;storage;settingsstorage;display="SDCard";wipeingui 
+/extsd         vfat        /dev/block/mmcblk0p1    flags=backup=1;storage;display="extsd";wipeingui;removable
+

@@ -1,0 +1,9 @@
+on init
+    insmod /device.ko
+    insmod /disp.ko
+    insmod /ft5202_ts.ko
+    insmod /hdmi.ko
+    insmod /lcd.ko
+    insmod /sw-keyboard.ko
+    insmod /ft5x_ts.ko
+    insmod /zet622x.ko  
