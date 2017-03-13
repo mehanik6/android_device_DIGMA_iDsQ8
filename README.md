@@ -3,7 +3,7 @@ AllWinner a31 DIGMA iDsQ8
 TWRP touch recovery
 -------------
 
-TWRP recovery - device: 
+TWRP recovery - device: http://4pda.ru/forum/index.php?showtopic=545046&view=findpost&p=59297008
 
 
 Flash CWM or TWRP
